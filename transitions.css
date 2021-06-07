@@ -1,0 +1,51 @@
+.transition1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 101;
+    background-color: #8bbada;
+    opacity: 0;
+    pointer-events: none;
+    transition: .4s ease-out;
+}
+
+.transition1.is-active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+.transition2 {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    bottom: 0;
+    z-index: 101;
+    background-color:  #8bbada;
+    transition: .4s ease-out;
+}
+
+.transition2.is-active {
+    left: 0px;
+
+}
+
+
+.transition3 {
+    position: fixed;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 101;
+    background-color:  #8bbada;
+    transition: .4s ease-out;
+}
+
+.transition3.is-active {
+    top: 0;
+
+}
